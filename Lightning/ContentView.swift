@@ -35,7 +35,7 @@ struct ContentView: View {
                             Color(lightning ? .systemBlue: .gray)
                             
                             Text("Lightning")
-                                .foregroundStyle(Color.white)
+                                .foregroundColor(.white)
                                 
                         }.frame(width: 100, height: 40)
                             .cornerRadius(10)
@@ -51,7 +51,7 @@ struct ContentView: View {
                             Color(rain ? .systemBlue: .gray)
                             
                             Text("Rain")
-                                .foregroundStyle(Color.white)
+                                .foregroundColor(.white)
                                 
                         }.frame(width: 100, height: 40)
                             .cornerRadius(10)
